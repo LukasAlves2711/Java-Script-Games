@@ -65,9 +65,10 @@ https://lukasalves2711.github.io/Java-Script-Games/
 
 ## How it works
 
-This project is divided into two parts:
-1. Backend (server folder)
-2. Frontend (web folder)
+Soon this project will be implemented
+
+1-backend (Node.JS)
+2-front end (React)
 
 ### Pre-requisites
 

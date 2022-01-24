@@ -50,14 +50,17 @@ A project to improve knowledge in web programming through the implementation of 
 
 ## Layout
 
-### Web 
-
- 
-
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/79018137/150878167-0d7e79f5-6b2c-4f68-8b65-a90238c4740a.gif)
 
 
 ---
+
+
+### Web  
+
+
+https://lukasalves2711.github.io/Java-Script-Games/
+
 
 
 ## How it works

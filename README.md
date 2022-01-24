@@ -36,7 +36,7 @@ A project to improve knowledge in web programming through the implementation of 
 ## Features
 
 
- [ ] Menu to access the games :
+ [x] Menu to access the games :
 
      - [x] Tic Tec Toe
      - [ ] hangman game
@@ -51,7 +51,7 @@ A project to improve knowledge in web programming through the implementation of 
 
  
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/79018137/148655006-29a955ba-1ba9-42fa-b0aa-1d035319119f.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/79018137/150878167-0d7e79f5-6b2c-4f68-8b65-a90238c4740a.gif)
 
 
 ---

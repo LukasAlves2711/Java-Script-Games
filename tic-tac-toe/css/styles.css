@@ -1,0 +1,99 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgb(32, 39, 39);
+    text-align: center;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+}
+
+.stage {
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: darkslategrey;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: "\1F47D";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    content: "\1F480";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer {
+    position: relative;
+}
+
+.result,
+td,
+tr {
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background-color: darkslategrey;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(255, 255, 255);
+    margin: auto;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    .square {
+        width: 70px;
+        height: 70px;
+        margin: auto;
+    }
+    .result,
+    td,
+    tr {
+        width: 250px;
+    }
+    .x:after {
+        font-size: 40px;
+        inset: 5px;
+    }
+    .o:after {
+        font-size: 40px;
+        inset: 5px;
+    }
+}

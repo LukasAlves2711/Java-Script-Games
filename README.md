@@ -1,5 +1,5 @@
 
-![1](https://user-images.githubusercontent.com/79018137/150878558-edbc24f9-fafd-4171-8c1e-5b175a5ad578.png)
+
 
 ##
 
@@ -50,7 +50,7 @@ A project to improve knowledge in web programming through the implementation of 
 
 ## Layout  🎨
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/79018137/150878167-0d7e79f5-6b2c-4f68-8b65-a90238c4740a.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/79018137/150987829-45ed6bf5-92a2-4de2-9107-f8241dc81595.gif)
 
 
 ---

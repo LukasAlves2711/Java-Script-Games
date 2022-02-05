@@ -50,9 +50,7 @@ A project to improve knowledge in web programming through the implementation of 
 
 ## Layout  🎨
 
-<<<<<<< HEAD
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/79018137/152645877-09091298-9cc3-4ee7-a189-51429d4cbaaa.gif)
-=======
+
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/79018137/150987829-45ed6bf5-92a2-4de2-9107-f8241dc81595.gif)
 >>>>>>> 362a4bb0610ed216c24bfa3dedb87ab4ab618fb3
 

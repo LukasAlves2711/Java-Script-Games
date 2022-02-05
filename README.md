@@ -43,7 +43,7 @@ A project to improve knowledge in web programming through the implementation of 
 
      - [x] Tic Tec Toe 
      - [x] Memory Game
-     - [ ] hangman Game
+     - [ ] Hangman Game
      
 ---
 

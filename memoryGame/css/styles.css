@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgb(32, 39, 39);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.card_front,
+.card_back {
+    background-color: darkslategrey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(84, 87, 223, 0.548);
+    backface-visibility: hidden;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.card_front {
+    transform: rotateY(180deg);
+}
+
+.card_back {
+    font-size: 70px;
+}
+
+#gameOver {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 21, 21, 0.459);
+    font-size: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+}
+
+#restart {
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 45px;
+    background-color: blue;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgba(84, 87, 223, 0.548);
+}
+
+#gameBoard {
+    max-width: 700px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+@media only screen and (max-width: 700px) {
+    .gameBoard {
+        max-width: 400px;
+        grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    }
+    .card {
+        width: 80px;
+        height: 80px;
+    }
+    .icon {
+        width: 40px;
+    }
+    .icon_back {
+        font-size: 20px;
+    }
+    .card_front,
+    .icon_back {
+        border-radius: 10px;
+    }
+}
